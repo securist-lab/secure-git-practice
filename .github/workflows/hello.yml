@@ -1,0 +1,8 @@
+name: Hello   # ã¯ã¼ã¯ãã­ã¼å
+on: push      # ã¤ãã³ã
+jobs:         # ã¸ã§ã
+    hello:    # ã¸ã§ãå
+        runs-on: ubuntu-latest  # ã©ã³ãã¼
+        steps:                            # ã¹ããã
+            - run: echo "Hello, world"    # ã·ã§ã«ã³ãã³ã
+            - uses: actions/checkout@v4   # ã¢ã¯ã·ã§ã³
